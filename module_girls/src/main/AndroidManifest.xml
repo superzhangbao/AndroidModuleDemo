@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hengsheng.module_girls">
+
+    <application android:theme="@style/AppTheme">
+        <activity
+            android:name="com.hengsheng.module.girls.main.GirlsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hengsheng.module.girls.girl.GirlActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

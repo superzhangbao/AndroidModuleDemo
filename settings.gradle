@@ -1,0 +1,1 @@
+include ':module_app', ':module_news', ':module_girls', ':module_main', ':lib_core'
